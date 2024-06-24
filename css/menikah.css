@@ -10,7 +10,7 @@
 }
 
 html {
-  font-family: 'Raleway', Tahoma, sans-serif;
+  /* font-family: 'Raleway', Tahoma, sans-serif; */
   width: 100%;
   min-height: 100%;
 }
@@ -42,7 +42,7 @@ html {
   background-size: cover;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
 }
 
 
@@ -285,7 +285,7 @@ html {
 }
 
 .main-content .section-title {
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
   font-weight: 900;
   color: #996E6D;
   text-transform: uppercase;
@@ -318,19 +318,19 @@ vertical-align: middle;
 
 .waktu {
   font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
 }
 
 .tanggal-angka {
   font-size: 5rem;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
   font-weight: 900;
   line-height: 1;
 }
 
 .tempat {
   font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
   margin-bottom: 50px;
 }
 
@@ -658,4 +658,8 @@ body.preloader-site {
     width: 220px;
     height: 220px;
   }
+}
+
+.font-base {
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
