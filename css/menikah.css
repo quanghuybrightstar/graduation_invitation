@@ -57,7 +57,7 @@ html {
 }
 
 .hero .subtitle {
-  padding: 35px;
+  padding: 25px;
   color: whitesmoke;
   font-size: 1.3rem;
 }
@@ -130,11 +130,17 @@ html {
 .main-content .section-dark {
   background-color: #F4E2E2;
   padding: 80px 40px;
+  @media screen and (max-width: 599px) {
+    padding: 60px 20px;
+  }
 }
 
 .main-content .section-darker {
   background-color: #EDD2D1;
   padding: 80px 40px;
+  @media screen and (max-width: 599px) {
+    padding: 60px 20px;
+  }
 }
 
 .main-content .section-dark.resume {
@@ -314,6 +320,9 @@ vertical-align: middle;
 
 .bodytext {
   font-size: 18px;
+  @media screen and (max-width: 599px) {
+    padding: 0 20px;
+  }
 }
 
 .waktu {
@@ -662,4 +671,11 @@ body.preloader-site {
 
 .font-base {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Active Navbar */
+.navbar-menu.is-active {
+  position: absolute;
+  right: 0;
+  left: 0;
 }
