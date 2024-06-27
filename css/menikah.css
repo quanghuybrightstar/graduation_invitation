@@ -74,7 +74,7 @@ html {
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .hero .hero-foot {
     display: none;
   }
@@ -130,7 +130,7 @@ html {
 .main-content .section-dark {
   background-color: #F4E2E2;
   padding: 80px 40px;
-  @media screen and (max-width: 599px) {
+  @media screen and (max-width: 768px) {
     padding: 60px 20px;
   }
 }
@@ -138,7 +138,7 @@ html {
 .main-content .section-darker {
   background-color: #EDD2D1;
   padding: 80px 40px;
-  @media screen and (max-width: 599px) {
+  @media screen and (max-width: 768px) {
     padding: 60px 20px;
   }
 }
@@ -149,7 +149,7 @@ html {
 
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .main-content .section-dark.resume {
     padding-top: 75px;
   }
@@ -182,7 +182,7 @@ html {
   padding: 80px 40px; 
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .main-content .section-dark.foto-foto {
     padding: 75px 20px;
   }
@@ -221,7 +221,7 @@ html {
   font-size: 1.2rem;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .main-content .section-light.regular-section .about-links {
     text-align: center;
   }
@@ -233,7 +233,7 @@ html {
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .main-content .section-light.regular-section .right-image img {
     margin: auto;
   }
@@ -243,7 +243,7 @@ html {
   padding: 100px;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .main-content .section-light.skills {
     padding: 50px 20px 40px 20px;
     padding-bottom: 20px;
@@ -268,7 +268,7 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .main-content .section-light.contact {
     padding: 80px 40px;
   }
@@ -320,7 +320,7 @@ vertical-align: middle;
 
 .bodytext {
   font-size: 18px;
-  @media screen and (max-width: 599px) {
+  @media screen and (max-width: 768px) {
     padding: 0 20px;
   }
 }
@@ -663,7 +663,7 @@ body.preloader-site {
   height: 350px;
   object-fit: cover;
 
-  @media screen and (max-width: 599px) {
+  @media screen and (max-width: 768px) {
     width: 220px;
     height: 220px;
   }
